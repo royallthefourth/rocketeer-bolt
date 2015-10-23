@@ -6,4 +6,4 @@ To setup an existing Bolt site to use Rocketeer, first make a copy of your site 
 1. Place the .rocketeer directory in your project root. Edit the files to suit your configuration.
 1. Run `rocketeer deploy` to send your code out to the server.
 1. Copy the contents of your `web/files` directory from the copy of your old site to the new `shared` directory like so:
-    `cp -R ../jessicaspence.old/web/files/* shared/web/files/`
+    `cp -R ../example.com.old/web/files/* shared/web/files/`
