@@ -1,0 +1,8 @@
+# Bolt specific stuff. Don't put config files, databases or 'vendor' in Git.
+app/cache/*
+extensions/vendor
+app/database/*
+thumbs/
+vendor/
+web/files/*
+.rocketeer/logs
