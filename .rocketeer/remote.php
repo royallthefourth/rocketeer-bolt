@@ -31,6 +31,7 @@ return [
     // user uploaded data, file-based databases, etc.
     'shared'         => [
         'web/files',
+        'web/thumbs'
     ],
 
     // Execution
@@ -60,7 +61,6 @@ return [
         'files'    => [
             'app/config',
             'extensions',
-            'web/files'
         ],
 
         // Here you can configure what actions will be executed to set
