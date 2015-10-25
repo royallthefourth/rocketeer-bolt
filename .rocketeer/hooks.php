@@ -36,6 +36,7 @@ return [
             'chown -R http:http web/extensions',
             'chmod -R 755 web/extensions',
             'rm app/config/config_local.yml',   // this assumes you keep your server config in config.yml and local database/debug settings in config_local.yml
+            'composer --working-dir=extensions install' // install your site's extensions
         ],
         'cleanup' => [],
     ],
